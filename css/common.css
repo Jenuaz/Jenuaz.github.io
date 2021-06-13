@@ -6,7 +6,7 @@ html {
   
 }
 
-#active {
+.current {
   background-color: #000531;
   color: #fff;
 } 
