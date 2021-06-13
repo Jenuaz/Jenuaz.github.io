@@ -9,7 +9,7 @@ layout: js
 <ul>
   {% for post in site.categories.js %}
     <li>
-      <a href="">{{post.title}}</a>
+      <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
       <p>{{post.meta}}</p>
     </li>
   {% endfor %}
