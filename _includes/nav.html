@@ -1,6 +1,6 @@
 <nav>
       <ul class="nav {{include.nvclass}}">
           <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
-          <li><a href="{{site.baseurl}}/javascript.html" class="{% if page.url == '/javascript.html' %}current{% endif %}">JS</a></li>
+          <li><a href="{{site.baseurl}}/javascript.html" class="{% if page.url contains 'javascript' or page.url contains 'js' %}current{% endif %}">JS</a></li>
       </ul>
 </nav>
