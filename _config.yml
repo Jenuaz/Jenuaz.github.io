@@ -10,4 +10,5 @@ github_username:  Jenuaz # DO NOT include the @ character, or else the build wil
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
-theme: minima
+#theme: minima
+exclude: ['README.md']
