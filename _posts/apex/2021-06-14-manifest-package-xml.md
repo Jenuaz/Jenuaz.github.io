@@ -1,3 +1,11 @@
+---
+layout: apex-post
+title: Metadata manifest
+meta: package.xml to retrieve all metadata
+source: http://www.github.com
+category: apex
+---
+
 <?xml version=”1.0″ encoding=”UTF-8″ standalone=”yes”?>
 <Package xmlns=”http://soap.sforce.com/2006/04/metadata”&gt;
 <types>
