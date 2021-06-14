@@ -49,6 +49,15 @@ category: apex
 <name>AutoResponseRules</name>
 </types>
 <types>
+		<members>*</members>
+		<name>BrandingSet</name>
+</types>
+<types>
+		<members>*</members>
+		<name>CallCenter</name>
+	</types>
+
+<types>
 <members>*</members>
 <name>ConnectedApp</name>
 </types>
@@ -101,6 +110,27 @@ category: apex
 <name>CustomTab</name>
 </types>
 <types>
+		<members>*</members>
+		<name>Certificate</name>
+	</types>
+<types>
+		<members>*</members>
+		<name>CleanDataService</name>
+	</types>
+<types>
+		<members>*</members>
+		<name>Community</name>
+	</types>
+<types>
+		<members>*</members>
+		<name>ContentAsset</name>
+	</types>
+<types>
+		<members>*</members>
+		<name>CorsWhitelistOrigin</name>
+	</types>
+
+<types>
 <members>*</members>
 <name>DelegateGroup</name>
 </types>
@@ -112,6 +142,15 @@ category: apex
 <members>*</members>
 <name>DuplicateRule</name>
 </types>
+<types>
+		<members>*</members>
+		<name>Dashboard</name>
+	</types>
+<types>
+		<members>*</members>
+		<name>DataCategoryGroup</name>
+	</types>
+
 <types>
 <members>*</members>
 <name>EclairGeoData</name>
